@@ -31,7 +31,9 @@ pipeline {
             }
         }
         stage ('Report') {
-            echo 'Reporting..!'
+            steps {
+                echo 'Reporting..!'
+            }
         }
     }
 
